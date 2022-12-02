@@ -4,7 +4,6 @@
 - ⟴ Self Delete Added (Auto delete)
 - ⟴ Filter On Off Option Added
 - ⟴ Custom Welcome Message
-- ⟴ URL Shortener Added
 - ⟴ Custom Download Name And URL
 - ⟴ Custom Texts (About, Help, Stats,More..)
 - ⟴ Custom URL Buttons (Updates channel, Add To Group, Force Sub, More...)
@@ -27,6 +26,7 @@
 - [x] Custom Buttons
 - [x] Auto Filter
 - [x] Manual Filter
+- [x] Search in PM
 - [x] IMDB
 - [x] Admin Commands
 - [x] Broadcast
@@ -40,7 +40,7 @@
 - [x] File Store
 ## Variables
 
-Read [this](https://telegram.dog/sources_cods) before you start messing up with your edits.
+Read [this](https://telegram.dog/GreyMatter_Bots) before you start messing up with your edits.
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -54,7 +54,7 @@ Read [this](https://telegram.dog/sources_cods) before you start messing up with 
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/AM-ROBOTS/AdvAnurag/blob/main/info.py) for more
+* Check [info.py](https://github.com/GreyMattersBot/url-auto-delete-shortener-bot/blob/main/info.py) for more
 ## EXTRA FEATURES
 * `URL_SHORTENR_WEBSITE`: URL Shortener Website Link ( Without https://)
 * `URL_SHORTNER_WEBSITE_API`: URL Shortener Website API key
@@ -77,6 +77,8 @@ You can deploy this bot anywhere.
 </a>
 </p>
 </details>
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/GreyMattersBot/url-auto-delete-shortener-bot&branch=koyeb&name=urlshortautofilterbot)
 
 <details><summary>Deploy To VPS</summary>
 <p>
@@ -123,13 +125,10 @@ link - to create link for one post
 [![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/greymatters_bots_discussion)
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/greymatter_bots)
 
-## Credits 
-* [![ᎯℕUℛᎯᎶ](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/sources_cods)
-
-
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To [ᎯℕUℛᎯᎶ](https://telegram.dog/gurubhai11) for his awesome Auto-delete Feature.
+ - Thanks To [Subinps](https://github.com/subinps) for Original EvaMaria.
+ - Thanks To [RushikeshNarule](https://github.com/rushikeshnarule) for Search in PM feature.
  - Thanks To All Everyone In This Journey
 
 ### Note
